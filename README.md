@@ -1,24 +1,18 @@
-# README
+# NewERA412 Platform
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Organization: ReEntry412
+* Client Contact: `Taili Thompson`
+* Student Consultants: `Brent Hong`, `Max Kornyev`, and `Joseph Perrino`
 
-Things you may want to cover:
+### Versions
 
-* Ruby version
+* `Ruby 2.4.3`
+* `Rails 5.2.4.1`
 
-* System dependencies
+### Test Suite 
 
-* Configuration
+* N/A
 
-* Database creation
+### Included Scripts 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* N/A 
