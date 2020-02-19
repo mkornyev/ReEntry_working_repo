@@ -1,8 +1,8 @@
 # NewERA412 Platform
 
 * Organization: ReEntry412
-* Client Contact: `Taili Thompson`
-* Student Consultants: `Brent Hong`, `Max Kornyev`, and `Joseph Perrino`
+* Client Contact: <a href="mailto:Taili.Thompson@alleghenycounty.us">`Taili Thompson`</a>
+* Student Consultants: <a href="https://github.com/brentthongg">`Brent Hong`</a>, <a href="">`Max Kornyev`</a>, and <a href="https://github.com/epiccrash">`Joseph Perrino`</a>
 
 ### Versions
 
