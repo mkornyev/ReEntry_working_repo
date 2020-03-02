@@ -1,4 +1,4 @@
-# NewERA412 Platform
+# <a href="https://newera-app.herokuapp.com/" target="_blank">NewERA412 Platform</a>
 
 * Organization: ReEntry412
 * Client Contact: <a href="mailto:Taili.Thompson@alleghenycounty.us">`Taili Thompson`</a>
