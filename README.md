@@ -17,7 +17,7 @@ The following will set up a python environment **in the same directory** as the 
 
 * Create the env: `virtualenv django_env` (set `django_env` to your preferred env name) 
 * Start the env: `source django_env/bin/activate`
-* Install all dependencies: `pip install -r requirement_file.txt`
+* Install all dependencies: `pip install -r requirements.txt`
 * Exit the env: `deactivate` 
 
 ###### De Futuro (important):  
