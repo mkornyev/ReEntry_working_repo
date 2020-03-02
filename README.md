@@ -9,9 +9,21 @@
 * `Python 3.6.6`
 * `Django 3.0.2 final`
 
-### Pip Env Notes 
+### Dependency Setup 
 
-* N/A
+###### First Time: 
+
+The following will set up a python environment **in the same directory** as the cloned project. This allows you to keep all your project dependencies (or `pip modules`) in isolation, and running their correct versions. 
+
+* Create the env: `virtualenv django_env` (set `django_env` to your preferred env name) 
+* Start the env: `source django_env/bin/activate`
+* Install all dependencies: `pip install -r requirement_file.txt`
+* Exit the env: `deactivate` 
+
+###### De Futuro (important):  
+
+* **After installing new python libraries to your pipenv, you must update the `requirements.txt` file** 
+* Do this by running `pip freeze > requirements.txt`
 
 ### Test Suite 
 
