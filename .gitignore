@@ -29,3 +29,10 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# REENTRY Ignore
+*.pyc
+db.sqlite3
+migrations
+.DS_Store
+.vscode/
