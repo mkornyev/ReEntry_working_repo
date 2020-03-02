@@ -25,9 +25,7 @@ SECRET_KEY = 'rzg+4u-9t+24vbk0!=5w6)&^thk3q%!ouc53&4&e*bn$jc@45e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['newera-app.herokuapp.com']
-
-
+ALLOWED_HOSTS = ['newera-app.herokuapp.com', 'localhost']
 
 # Application definition
 
@@ -38,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'NewEra'
+    'NewEra',
 ]
 
 MIDDLEWARE = [
@@ -116,27 +114,26 @@ USE_L10N = True
 
 USE_TZ = True
 
-# Custom Vars
+#####################################################
+
+# Library Vars 
 
 # AUTH 
 LOGIN_URL = '/login'
 LOGIN_REDIRECT_URL = '/'
 
+#####################################################
 
+# Misc Deployment Vars 
 
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.0/howto/static-files/
-
-PROJECT_ROOT = os.path.join(os.path.abspath(__file__))
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') # changed PROJECT_ROOT --> BASE_DIR
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'), # changed PROJECT_ROOT --> BASE_DIR
+    os.path.join(BASE_DIR, 'static'),
 )
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATIC_URL = '/static/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'socialnetwork/user_uploads/')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'NewEra/user_uploads/')
 
 # DB Configuration 
 
